@@ -1,0 +1,43 @@
+{
+  "_id": "book_1",
+  "_rev": "1-018f9a7edc51eea89142848ba1159e1f",
+  "bookLabel": "The Postman Always Rings Twice",
+  "dop": "1934-01-01T00:00:00Z",
+  "freebase": "/m/01wrys",
+  "genres": [
+    "genre_1"
+  ],
+  "authors": [
+    "author_1"
+  ]
+}
+
+{
+    "_id": "author_1",
+    "authorLabel": "James M. Cain",
+    "dob": "1892-07-01T00:00:00Z",
+    "dod": "1977-10-27T00:00:00Z"
+}
+
+{
+    "_id": "genre_1",
+    "genreLabel": "crime novel",
+    "genreDescription": "novel in the crime genre"
+}
+
+{
+    "_id": "lease_offer_1",
+    "bookId": "book_884",
+    "libraryId": "library_64",
+    "availability": "Discontinued",
+    "leaseStart": "2022-12-12T15:07:57.499772",
+    "leaseEnd": "2023-06-30T15:07:57.499772"
+}
+
+{
+    "_id": "library_2",
+    "name": "OCLC, Inc.",
+    "country": "United States of America",
+    "webpage": "https://www.oclc.org/",
+    "isil": "US-OCOLC"
+}

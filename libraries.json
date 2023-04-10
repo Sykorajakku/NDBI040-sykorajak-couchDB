@@ -1,0 +1,702 @@
+[
+  {
+    "_id": "library_2",
+    "name": "OCLC, Inc.",
+    "country": "United States of America",
+    "webpage": "https://www.oclc.org/",
+    "isil": "US-OCOLC"
+  },
+  {
+    "_id": "library_3",
+    "name": "Avery Architectural and Fine Arts Library",
+    "country": "United States of America",
+    "webpage": "https://library.columbia.edu/libraries/avery.html",
+    "isil": "US-NNCA"
+  },
+  {
+    "_id": "library_4",
+    "name": "Gatineau Public Libraries",
+    "country": "Canada",
+    "webpage": "https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/bibliotheque",
+    "isil": "CA-QG"
+  },
+  {
+    "_id": "library_5",
+    "name": "Library and Archives Canada",
+    "country": "Canada",
+    "webpage": "https://www.bac-lac.gc.ca/",
+    "isil": "CA-OONL"
+  },
+  {
+    "_id": "library_6",
+    "name": "John P. Robarts Library",
+    "country": "Canada",
+    "webpage": "https://onesearch.library.utoronto.ca",
+    "isil": "OCLC-UTO"
+  },
+  {
+    "_id": "library_7",
+    "name": "H\u014dsa Library",
+    "country": "Japan",
+    "webpage": "http://housa.city.nagoya.jp/",
+    "isil": "JP-1005670"
+  },
+  {
+    "_id": "library_8",
+    "name": "H\u014dsa Library",
+    "country": "Japan",
+    "webpage": "http://housa.city.nagoya.jp/",
+    "isil": "JP-1005671"
+  },
+  {
+    "_id": "library_9",
+    "name": "H\u014dsa Library",
+    "country": "Japan",
+    "webpage": "http://housa.city.nagoya.jp/",
+    "isil": "JP-2002594"
+  },
+  {
+    "_id": "library_10",
+    "name": "Foundation for the historical heritage of SBB",
+    "country": "Switzerland",
+    "webpage": "http://www.sbbhistoric.ch",
+    "isil": "CH-000699-3"
+  },
+  {
+    "_id": "library_11",
+    "name": "Zentralbibliothek Solothurn",
+    "country": "Switzerland",
+    "webpage": "http://www.zbsolothurn.ch",
+    "isil": "CH-000045-X"
+  },
+  {
+    "_id": "library_12",
+    "name": "cantonal library of Appenzell Ausserrhoden",
+    "country": "Switzerland",
+    "webpage": "https://www.ar.ch/kantonsbibliothek",
+    "isil": "CH-000095-1"
+  },
+  {
+    "_id": "library_13",
+    "name": "Bodmer Foundation",
+    "country": "Switzerland",
+    "webpage": "http://www.fondationbodmer.ch",
+    "isil": "CH-001107-9"
+  },
+  {
+    "_id": "library_14",
+    "name": "Centre international de recherches sur l'anarchisme",
+    "country": "Switzerland",
+    "webpage": "https://www.cira.ch/",
+    "isil": "CH-001181-6"
+  },
+  {
+    "_id": "library_15",
+    "name": "Bibliothek Zug",
+    "country": "Switzerland",
+    "webpage": "https://www.bibliothekzug.ch/-/bibliothek-z-2",
+    "isil": "CH-000063-8"
+  },
+  {
+    "_id": "library_16",
+    "name": "Library of the canton of St. Gallen",
+    "country": "Switzerland",
+    "webpage": "http://www.kb.sg.ch/",
+    "isil": "CH-000009-3"
+  },
+  {
+    "_id": "library_17",
+    "name": "Library of the canton of St. Gallen",
+    "country": "Switzerland",
+    "webpage": "http://www.sg.ch/home/kultur/kantonsbibliothek.html",
+    "isil": "CH-000009-3"
+  },
+  {
+    "_id": "library_18",
+    "name": "Library of the canton of St. Gallen",
+    "country": "Switzerland",
+    "webpage": "https://www.sg.ch/home/kultur/kantonsbibliothek/sammlungen.html",
+    "isil": "CH-000009-3"
+  },
+  {
+    "_id": "library_19",
+    "name": "Smithsonian Libraries and Archives",
+    "country": "United States of America",
+    "webpage": "https://librariesarchives.si.edu/",
+    "isil": "OCLC-SMI"
+  },
+  {
+    "_id": "library_20",
+    "name": "Smithsonian Libraries and Archives",
+    "country": "United States of America",
+    "webpage": "http://library.si.edu/",
+    "isil": "OCLC-SMI"
+  },
+  {
+    "_id": "library_21",
+    "name": "Smithsonian Libraries and Archives",
+    "country": "United States of America",
+    "webpage": "https://library.si.edu/",
+    "isil": "OCLC-SMI"
+  },
+  {
+    "_id": "library_22",
+    "name": "Vancouver Public Library",
+    "country": "Canada",
+    "webpage": "http://www.vpl.ca/",
+    "isil": "OCLC-VP"
+  },
+  {
+    "_id": "library_23",
+    "name": "Cantonal Library Nidwalden",
+    "country": "Switzerland",
+    "webpage": "https://www.nw.ch/kantonsbiblio/1095",
+    "isil": "CH-001307"
+  },
+  {
+    "_id": "library_24",
+    "name": "Cantonal Library Nidwalden",
+    "country": "Switzerland",
+    "webpage": "https://www.nw.ch/kantonsbiblio/1095",
+    "isil": "CH-000062-0"
+  },
+  {
+    "_id": "library_25",
+    "name": "canton Thurgau library (collection)",
+    "country": "Switzerland",
+    "webpage": "https://www.kantonsbibliothek.tg.ch",
+    "isil": "CH-000086-2"
+  },
+  {
+    "_id": "library_26",
+    "name": "Cantonal library of the Basel-Landschaft",
+    "country": "Switzerland",
+    "webpage": "http://www.kbl.ch",
+    "isil": "CH-000040-3"
+  },
+  {
+    "_id": "library_27",
+    "name": "cantonal library Obwalden",
+    "country": "Switzerland",
+    "webpage": "https://www.kbow.ch",
+    "isil": "CH-000061-3"
+  },
+  {
+    "_id": "library_28",
+    "name": "Kornhausbibliotheken Bern",
+    "country": "Switzerland",
+    "webpage": "https://www.kob.ch/",
+    "isil": "CH-002073-3"
+  },
+  {
+    "_id": "library_29",
+    "name": "Pestalozzi Library Zurich",
+    "country": "Switzerland",
+    "webpage": "http://www.pbz.ch/",
+    "isil": "CH-000083-0"
+  },
+  {
+    "_id": "library_30",
+    "name": "SBS Swiss Library for the Blind, Visual Impaired and Print Disabled",
+    "country": "Switzerland",
+    "webpage": "http://www.sbs.ch/",
+    "isil": "CH-001330-8"
+  },
+  {
+    "_id": "library_31",
+    "name": "Schaffhausen City Library",
+    "country": "Switzerland",
+    "webpage": "https://www.bibliotheken-schaffhausen.ch",
+    "isil": "CH-000082-3"
+  },
+  {
+    "_id": "library_32",
+    "name": "Royal Danish Library",
+    "country": "Denmark",
+    "webpage": "https://www.kb.dk",
+    "isil": "DK-810010"
+  },
+  {
+    "_id": "library_33",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://library.un.org/",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_34",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://library.un.org/ar",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_35",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://library.un.org/fr",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_36",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://library.un.org/ru",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_37",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://library.un.org/zh",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_38",
+    "name": "Dag Hammarskj\u00f6ld Library",
+    "country": "United States of America",
+    "webpage": "https://www.un.org/es/library",
+    "isil": "US-NNUN"
+  },
+  {
+    "_id": "library_39",
+    "name": "Harvard Library",
+    "country": "United States of America",
+    "webpage": "http://library.harvard.edu/",
+    "isil": "US-17"
+  },
+  {
+    "_id": "library_40",
+    "name": "Princeton University Library",
+    "country": "United States of America",
+    "webpage": "http://library.princeton.edu/",
+    "isil": "US-NjP"
+  },
+  {
+    "_id": "library_41",
+    "name": "State library Styria",
+    "country": "Austria",
+    "webpage": "http://www.landesbibliothek.steiermark.at/",
+    "isil": "AT-LBST"
+  },
+  {
+    "_id": "library_42",
+    "name": "Carinthia state library",
+    "country": "Austria",
+    "webpage": "http://www.landesmuseum.ktn.gv.at",
+    "isil": "AT-LMK"
+  },
+  {
+    "_id": "library_43",
+    "name": "Nieder\u00f6sterreichische Landesbibliothek",
+    "country": "Austria",
+    "webpage": "http://www.noe.gv.at/Bildung/Landesbibliothek.html",
+    "isil": "AT-NOeLB"
+  },
+  {
+    "_id": "library_44",
+    "name": "Leiden University Library",
+    "country": "Netherlands",
+    "webpage": "https://www.bibliotheek.universiteitleiden.nl",
+    "isil": "NL-0200050000"
+  },
+  {
+    "_id": "library_45",
+    "name": "Leiden University Library",
+    "country": "Netherlands",
+    "webpage": "https://www.library.universiteitleiden.nl",
+    "isil": "NL-0200050000"
+  },
+  {
+    "_id": "library_46",
+    "name": "Cultural Masonic Centre 'Prince Frederick'",
+    "country": "Netherlands",
+    "webpage": "https://www.vrijmetselarijmuseum.nl/",
+    "isil": "NL-HaCMC"
+  },
+  {
+    "_id": "library_47",
+    "name": "Rijksmuseum Research Library",
+    "country": "Netherlands",
+    "webpage": "https://library.rijksmuseum.nl/",
+    "isil": "OCLC-NLRIJ"
+  },
+  {
+    "_id": "library_48",
+    "name": "Upper Austrian State Library",
+    "country": "Austria",
+    "webpage": "http://www.landesbibliothek.at/",
+    "isil": "AT-4:OOeLB"
+  },
+  {
+    "_id": "library_49",
+    "name": "Upper Austrian State Library",
+    "country": "Austria",
+    "webpage": "http://www.landesbibliothek.at/",
+    "isil": "AT-OOeLB"
+  },
+  {
+    "_id": "library_50",
+    "name": "Library of the Austrian Chamber of Labour in Vienna",
+    "country": "Austria",
+    "webpage": "http://wien.arbeiterkammer.at/service/bibliothek/index.html",
+    "isil": "AT-AKW"
+  },
+  {
+    "_id": "library_51",
+    "name": "Sainte-Genevi\u00e8ve Library",
+    "country": "France",
+    "webpage": "https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/welcome",
+    "isil": "FR-751052116"
+  },
+  {
+    "_id": "library_52",
+    "name": "Biblioth\u00e8que Mazarine",
+    "country": "France",
+    "webpage": "http://www.bibliotheque-mazarine.fr/",
+    "isil": "FR-751063002"
+  },
+  {
+    "_id": "library_53",
+    "name": "Bibliotheca Bipontina",
+    "country": "Germany",
+    "webpage": "https://lbz.rlp.de/de/ueber-uns/standorte/bibliotheca-bipontina/",
+    "isil": "DE-Zw1"
+  },
+  {
+    "_id": "library_54",
+    "name": "Library of Otto Sch\u00e4fer",
+    "country": "Germany",
+    "webpage": "http://www.bibliothek-otto-schaefer.de",
+    "isil": "DE-Swf2"
+  },
+  {
+    "_id": "library_55",
+    "name": "Library of the Friedrich-Ebert-Stiftung",
+    "country": "Germany",
+    "webpage": "http://library.fes.de/",
+    "isil": "DE-Bo133"
+  },
+  {
+    "_id": "library_56",
+    "name": "Library of the Free",
+    "country": "Germany",
+    "webpage": "https://www.bibliothekderfreien.de/",
+    "isil": "DE-B1576"
+  },
+  {
+    "_id": "library_57",
+    "name": "Library of the Evangelical Monastery of St. Augustine's in Erfurt",
+    "country": "Germany",
+    "webpage": "http://www.augustinerkloster.de/kirche-und-kloster/historische-bibliothek.html",
+    "isil": "DE-Ef27"
+  },
+  {
+    "_id": "library_58",
+    "name": "Library at the Church administrative office of the Evangelical-Lutheran Church Hanover",
+    "country": "Germany",
+    "webpage": "http://www.evlka.de/bibliothek",
+    "isil": "DE-Hv111"
+  },
+  {
+    "_id": "library_59",
+    "name": "Library of the Cusanusstift",
+    "country": "Germany",
+    "webpage": "http://www.cusanus.de",
+    "isil": "DE-Bkk1"
+  },
+  {
+    "_id": "library_60",
+    "name": "UNESCO Institute for Lifelong Learning Library",
+    "country": "Germany",
+    "webpage": "http://www.unesco.org/uil/",
+    "isil": "DE-H108"
+  },
+  {
+    "_id": "library_61",
+    "name": "Research Library for the History of Education",
+    "country": "Germany",
+    "webpage": "http://bbf.dipf.de/",
+    "isil": "DE-B478"
+  },
+  {
+    "_id": "library_62",
+    "name": "Library and media center of the Palatine protestant churches",
+    "country": "Germany",
+    "webpage": "http://www.kirchenbibliothek.de",
+    "isil": "DE-Sp5"
+  },
+  {
+    "_id": "library_63",
+    "name": "Prussian Heritage Image Archive",
+    "country": "Germany",
+    "webpage": "https://www.bpk-bildagentur.de",
+    "isil": "DE-1b"
+  },
+  {
+    "_id": "library_64",
+    "name": "Municipal Scientific Library Mainz",
+    "country": "Germany",
+    "webpage": "http://www.bibliothek.mainz.de",
+    "isil": "DE-36"
+  },
+  {
+    "_id": "library_65",
+    "name": "Blaues Haus",
+    "country": "Germany",
+    "webpage": "https://blaueshausbreisach.de/",
+    "isil": "DE-Brs1"
+  },
+  {
+    "_id": "library_66",
+    "name": "Bodenseebibliothek",
+    "country": "Germany",
+    "webpage": "http://www.bodenseebibliothek.de/",
+    "isil": "DE-Fh1"
+  },
+  {
+    "_id": "library_67",
+    "name": "Roemer- und Pelizaeus-Museum",
+    "country": "Germany",
+    "webpage": "https://www.rpmuseum.de/",
+    "isil": "DE-Hil1"
+  },
+  {
+    "_id": "library_68",
+    "name": "Q1020344",
+    "country": "Germany",
+    "webpage": "http://www.bib.veitshoechheim.de/",
+    "isil": "DE-1022"
+  },
+  {
+    "_id": "library_69",
+    "name": "Christian Weise Library",
+    "country": "Germany",
+    "webpage": "http://www.cwbz.de",
+    "isil": "DE-124"
+  },
+  {
+    "_id": "library_70",
+    "name": "Commerzbibliothek",
+    "country": "Germany",
+    "webpage": "http://www.commerzbibliothek.de",
+    "isil": "DE-205"
+  },
+  {
+    "_id": "library_71",
+    "name": "National Meteorological Library",
+    "country": "Germany",
+    "webpage": "http://www.dwd.de/bibliothek",
+    "isil": "DE-B23"
+  },
+  {
+    "_id": "library_72",
+    "name": "German Central Library of Pharmacy",
+    "country": "Germany",
+    "webpage": "http://www.wlb-stuttgart.de/die-wlb/weitere-einrichtungen/deutsche-pharmazeutische-zentralbibliothek/",
+    "isil": "DE-24-1"
+  },
+  {
+    "_id": "library_73",
+    "name": "Stadtbibliothek Winterthur",
+    "country": "Switzerland",
+    "webpage": "http://bibliotheken.winterthur.ch",
+    "isil": "CH-000084-8"
+  },
+  {
+    "_id": "library_74",
+    "name": "Biblioth\u00e8que du ch\u00e2teau d'Oron",
+    "country": "Switzerland",
+    "webpage": "http://www.swisscastles.ch/vaud/oron",
+    "isil": "CH-001238-0"
+  },
+  {
+    "_id": "library_75",
+    "name": "Germania Judaica",
+    "country": "Germany",
+    "webpage": "http://www.germaniajudaica.de",
+    "isil": "DE-Kn125"
+  },
+  {
+    "_id": "library_76",
+    "name": "Berlin State Library",
+    "country": "Germany",
+    "webpage": "https://staatsbibliothek-berlin.de/",
+    "isil": "DE-1a"
+  },
+  {
+    "_id": "library_77",
+    "name": "Donaueschingen court library",
+    "country": "Germany",
+    "webpage": "http://www.alte-hofbibliothek.de/alte-hofbibliothek-donauesching/historie/",
+    "isil": "DE-50"
+  },
+  {
+    "_id": "library_78",
+    "name": "Berlin Central and Regional Library",
+    "country": "Germany",
+    "webpage": "https://www.zlb.de/",
+    "isil": "DE-109"
+  },
+  {
+    "_id": "library_79",
+    "name": "ZKM | Center for Art and Media Karlsruhe",
+    "country": "Germany",
+    "webpage": "http://www.zkm.de",
+    "isil": "DE-MUS-530125"
+  },
+  {
+    "_id": "library_80",
+    "name": "W\u00fcrttembergische Landesbibliothek",
+    "country": "Germany",
+    "webpage": "https://www.wlb-stuttgart.de/en",
+    "isil": "DE-24"
+  },
+  {
+    "_id": "library_81",
+    "name": "Library of Kloster Ottobeuren",
+    "country": "Germany",
+    "webpage": "http://www.abtei-ottobeuren.de/",
+    "isil": "DE-Otb1"
+  },
+  {
+    "_id": "library_82",
+    "name": "Library of Kloster Ottobeuren",
+    "country": "Germany",
+    "webpage": "https://www.abtei-ottobeuren.de/content/museum/die-klosterbibliothek.html",
+    "isil": "DE-Otb1"
+  },
+  {
+    "_id": "library_83",
+    "name": "Anhaltinian regional library",
+    "country": "Germany",
+    "webpage": "http://www.bibliothek.dessau-rosslau.de/",
+    "isil": "DE-111"
+  },
+  {
+    "_id": "library_84",
+    "name": "Library of the Medical Association Hamburg",
+    "country": "Germany",
+    "webpage": "http://www.aekbibl.de",
+    "isil": "DE-H20"
+  },
+  {
+    "_id": "library_85",
+    "name": "Baden State Library",
+    "country": "Germany",
+    "webpage": "https://www.blb-karlsruhe.de/",
+    "isil": "DE-31"
+  },
+  {
+    "_id": "library_86",
+    "name": "Wienbibliothek im Rathaus",
+    "country": "Austria",
+    "webpage": "http://www.wienbibliothek.at/",
+    "isil": "AT-WBR"
+  },
+  {
+    "_id": "library_87",
+    "name": "SLUB Dresden building",
+    "country": "Germany",
+    "webpage": "http://www.slub-dresden.de",
+    "isil": "DE-14-00"
+  },
+  {
+    "_id": "library_88",
+    "name": "Library of the Monastery Metten",
+    "country": "Germany",
+    "webpage": "http://www.kloster-metten.de/?page_id=23&layout_id=1",
+    "isil": "DE-Met1"
+  },
+  {
+    "_id": "library_89",
+    "name": "Wilhelmsstift. Bibliothek",
+    "country": "Germany",
+    "webpage": "http://www.wilhelmsstift.de/bibliothek.php",
+    "isil": "DE-Tue59"
+  },
+  {
+    "_id": "library_90",
+    "name": "Lippe State Library at Detmold",
+    "country": "Germany",
+    "webpage": "https://www.llb-detmold.de/",
+    "isil": "DE-51"
+  },
+  {
+    "_id": "library_91",
+    "name": "Gummersbach district and city library",
+    "country": "Germany",
+    "webpage": "http://www.gummersbach.de/buecherei.html",
+    "isil": "DE-227"
+  },
+  {
+    "_id": "library_92",
+    "name": "Art and Museum Library of the City of Cologne",
+    "country": "Germany",
+    "webpage": "http://www.museenkoeln.de/kunst-und-museumsbibliothek/",
+    "isil": "DE-Kn3"
+  },
+  {
+    "_id": "library_93",
+    "name": "Landesbibliothekszentrum Rheinland-Pfalz",
+    "country": "Germany",
+    "webpage": "http://www.lbz.rlp.de/",
+    "isil": "DE-929"
+  },
+  {
+    "_id": "library_94",
+    "name": "Landesbibliothekszentrum Rheinland-Pfalz",
+    "country": "Germany",
+    "webpage": "http://www.lbz.rlp.de/",
+    "isil": "DE-107"
+  },
+  {
+    "_id": "library_95",
+    "name": "Landesbibliothekszentrum Rheinland-Pfalz",
+    "country": "Germany",
+    "webpage": "http://www.lbz.rlp.de/",
+    "isil": "DE-1071"
+  },
+  {
+    "_id": "library_96",
+    "name": "Q1802349",
+    "country": "Germany",
+    "webpage": "https://www.maerkischer-kreis.de/kultur-freizeit/landeskundliche-bibliothek/index.php",
+    "isil": "DE-458"
+  },
+  {
+    "_id": "library_97",
+    "name": "Marienbibliothek zu Halle an der Saale (Germany)",
+    "country": "Germany",
+    "webpage": "http://www.marienbibliothek-halle.de/",
+    "isil": "DE-Ha32"
+  },
+  {
+    "_id": "library_98",
+    "name": "North Elbian church library",
+    "country": "Germany",
+    "webpage": "https://nkb.nordkirche.de/",
+    "isil": "DE-H99"
+  },
+  {
+    "_id": "library_99",
+    "name": "Q2052420",
+    "country": "Germany",
+    "webpage": "https://www.muenchner-stadtmuseum.de/sammlungen/mode-/-textilien-/-kostuembibliothek/von-parish-kostuembibliothek",
+    "isil": "DE-M458"
+  },
+  {
+    "_id": "library_100",
+    "name": "Palatinate Library",
+    "country": "Germany",
+    "webpage": "http://www.pfalzbibliothek.de",
+    "isil": "DE-Kai1"
+  },
+  {
+    "_id": "library_101",
+    "name": "Palatine state library Speyer",
+    "country": "Germany",
+    "webpage": "https://lbz.rlp.de/de/ueber-uns/standorte/pfaelzische-landesbibliothek/",
+    "isil": "DE-107"
+  }
+]
