@@ -86,30 +86,30 @@ databases = [
     ("libraries", "library"),
 ]
 
-for db_name, doc_type in databases:
-    server.create(db_name)
+
+server.create("library")
 
 with open("books.json", "r") as f:
     books = json.load(f)
     for book in books:
-        server["books"].save(book)
+        server["library"].save(book)
 
 with open("authors.json", "r") as f:
     authors = json.load(f)
     for author in authors:
-        server["authors"].save(author)
+        server["library"].save(author)
 
 with open("genres.json", "r") as f:
     genres = json.load(f)
     for genre in genres:
-        server["genres"].save(genre)
+        server["library"].save(genre)
 
 with open("lease_offers.json", "r") as f:
     lease_offers = json.load(f)
     for lease_offer in lease_offers:
-        server["lease_offers"].save(lease_offer)
+        server["library"].save(lease_offer)
 
 with open("libraries.json", "r") as f:
     libraries = json.load(f)
     for library in libraries:
-        server["libraries"].save(library)
+        server["library"].save(library)

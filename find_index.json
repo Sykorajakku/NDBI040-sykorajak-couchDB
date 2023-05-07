@@ -1,0 +1,7 @@
+{
+    "index": {
+      "fields": ["type", "libraryId"]
+    },
+    "name": "lease_offer_libraryId_index",
+    "type": "json"
+}

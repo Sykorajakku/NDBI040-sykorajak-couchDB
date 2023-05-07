@@ -107,6 +107,7 @@ for result in results["results"]["bindings"]:
         genre_id += 1
         genres[genre_label] = {
             "_id": genre_key,
+            "type": "genre",
             "genreLabel": genre_label,
             "genreDescription": genre_description
         }
@@ -121,6 +122,7 @@ for result in results["results"]["bindings"]:
         author_id += 1
         authors[author_label] = {
             "_id": author_key,
+            "type": "author",
             "authorLabel": author_label,
             "dob": dob,
             "dod": dod
@@ -136,6 +138,7 @@ for result in results["results"]["bindings"]:
         book_id += 1
         books[book_label] = {
             "_id": book_key,
+            "type": "book",
             "bookLabel": book_label,
             "dop": dop,
             "freebase": freebase,
@@ -161,6 +164,7 @@ for result in libraries_results["results"]["bindings"]:
 
     libraries.append({
         "_id": f"library_{idx + 1}",
+        "type": "library",
         "name": library_label,
         "country": country,
         "webpage": webpage,
@@ -185,6 +189,7 @@ for i in range(1, 10001):
 
     lease_offers.append({
         "_id": f"lease_offer_{i}",
+        "type": "lease_offer",
         "bookId": book["_id"],
         "libraryId": library["_id"],
         "availability": availability,
