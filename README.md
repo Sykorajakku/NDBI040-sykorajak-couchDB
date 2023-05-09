@@ -1,5 +1,7 @@
 # How to setup a CouchDB cluster with docker-compose
 
+[YouTube presentation](https://www.youtube.com/watch?v=ixiTg0M7-SA)
+
 ## Setup
 0. have Docker and Python3 installed on your system, be sure you can use pip, python, docker-compose commands
 
