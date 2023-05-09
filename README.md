@@ -2,6 +2,8 @@
 
 [YouTube presentation](https://www.youtube.com/watch?v=ixiTg0M7-SA)
 
+Please note that in the video some paths of scripts were changed (currently are located in separate folders).
+
 ## Setup
 0. have Docker and Python3 installed on your system, be sure you can use pip, python, docker-compose commands
 
