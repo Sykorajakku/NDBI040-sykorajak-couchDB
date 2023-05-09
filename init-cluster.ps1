@@ -19,28 +19,18 @@ $ALL_NODES = "$COORDINATOR_NODE,$ADDITIONAL_NODES"
 $COUCHDB_USER = $envVars.COUCHDB_USER
 $COUCHDB_PASSWORD = $envVars.COUCHDB_PASSWORD
 
-# See https://docs.couchdb.org/en/master/setup/cluster.html
-$json = @{
-    action = "enable_cluster"
-    bind_address = "0.0.0.0"
-    username = "couchdb.admin"
-    password = "couchdb.admin"
-    node_count = "3"
-} | ConvertTo-Json 
-
-curl -X POST -H "Content-Type: application/json" http://couchdb.admin:couchdb.admin@127.0.0.1:10010/_cluster_setup -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\", \"node_count\":\"3\"}'
-Write-Host $response
+curl.exe -X POST -H "Content-Type: application/json" http://couchdb.admin:couchdb.admin@127.0.0.1:10010/_cluster_setup -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\", \"node_count\":\"3\"}'
 Write-Host "You may safely ignore the warning above."
 
-curl -X POST -H "Content-Type: application/json" "http://$($envVars.COUCHDB_USER):$($envVars.COUCHDB_PASSWORD)@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\": \"couchdb.admin\", \"password\":\"couchdb.admin\", \"port\": 5984, \"node_count\": \"3\", \"remote_node\": \"couchdb-1.aspw-dev\", \"remote_current_user\": \"couchdb.admin\", \"remote_current_password\": \"couchdb.admin\" }'
-curl -X POST -H "Content-Type: application/json" "http://$($envVars.COUCHDB_USER):$($envVars.COUCHDB_PASSWORD)@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\": \"couchdb.admin\", \"password\":\"couchdb.admin\", \"port\": 5984, \"node_count\": \"3\", \"remote_node\": \"couchdb-2.aspw-dev\", \"remote_current_user\": \"couchdb.admin\", \"remote_current_password\": \"couchdb.admin\" }'
-curl -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"add_node\", \"host\":\"couchdb-1.aspw-dev\", \"port\": 5984, \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\"}'
-curl -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"add_node\", \"host\":\"couchdb-2.aspw-dev\", \"port\": 5984, \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\"}'
+curl.exe -X POST -H "Content-Type: application/json" "http://$($envVars.COUCHDB_USER):$($envVars.COUCHDB_PASSWORD)@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\": \"couchdb.admin\", \"password\":\"couchdb.admin\", \"port\": 5984, \"node_count\": \"3\", \"remote_node\": \"couchdb-1.aspw-dev\", \"remote_current_user\": \"couchdb.admin\", \"remote_current_password\": \"couchdb.admin\" }'
+curl.exe -X POST -H "Content-Type: application/json" "http://$($envVars.COUCHDB_USER):$($envVars.COUCHDB_PASSWORD)@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"enable_cluster\", \"bind_address\":\"0.0.0.0\", \"username\": \"couchdb.admin\", \"password\":\"couchdb.admin\", \"port\": 5984, \"node_count\": \"3\", \"remote_node\": \"couchdb-2.aspw-dev\", \"remote_current_user\": \"couchdb.admin\", \"remote_current_password\": \"couchdb.admin\" }'
+curl.exe -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"add_node\", \"host\":\"couchdb-1.aspw-dev\", \"port\": 5984, \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\"}'
+curl.exe -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"add_node\", \"host\":\"couchdb-2.aspw-dev\", \"port\": 5984, \"username\":\"couchdb.admin\", \"password\":\"couchdb.admin\"}'
 
-curl "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/"
-curl -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"finish_cluster\"}'
-curl "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup"
-curl "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_membership"
+curl.exe "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/"
+curl.exe -X POST -H "Content-Type: application/json" "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup" -d '{\"action\": \"finish_cluster\"}'
+curl.exe "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_cluster_setup"
+curl.exe "http://${COUCHDB_USER}:${COUCHDB_PASSWORD}@127.0.0.1:$($envVars.PORT_BASE)0/_membership"
 
 Write-Host "Your cluster nodes are available at:"
 foreach ($NODE_ID in $ALL_NODES.Split(',')) {

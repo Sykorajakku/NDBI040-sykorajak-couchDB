@@ -76,6 +76,11 @@ GROUP BY ?libraryLabel ?countryLabel ?webpage ?isil
 LIMIT 100
 """
 
+def split_name(full_name):
+    name_parts = full_name.split(" ")
+    family_name = name_parts[-1]
+    given_name = " ".join(name_parts[:-1])
+    return given_name, family_name
 
 def get_results(endpoint_url, query):
     user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
@@ -120,13 +125,19 @@ for result in results["results"]["bindings"]:
     if author_label not in authors:
         author_key = f"author_{author_id}"
         author_id += 1
-        authors[author_label] = {
+        given_name, family_name = split_name(author_label)
+        author_data = {
             "_id": author_key,
             "type": "author",
-            "authorLabel": author_label,
-            "dob": dob,
-            "dod": dod
+            "name": {
+                "givenName": given_name,
+                "familyName": family_name,
+            },
+            "dob": dob
         }
+        if dod is not None:
+            author_data["dod"] = dod
+        authors[author_label] = author_data
         
     # Process book
     book_label = result["bookLabel"]["value"]
