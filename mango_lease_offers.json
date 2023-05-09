@@ -1,7 +1,0 @@
-{
-    "selector": {
-      "type": "lease_offer",
-      "libraryId": "library_2"
-    },
-    "fields": ["_id", "_rev", "bookId", "libraryId", "availability", "leaseStart", "leaseEnd"]
-}

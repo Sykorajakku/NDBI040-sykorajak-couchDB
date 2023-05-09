@@ -1,4 +1,0 @@
-curl -X POST -H "Content-Type: application/json" --data @mango_lease_offers.json http://couchdb.admin:couchdb.admin@localhost:10010/library/_find  
-
-curl -X GET 'http://couchdb.admin:couchdb.admin@localhost:10010/library/_design/views/_view/authors_books_view_collation?startkey=%5B%22author_2%22%5D&endkey=%5B%22author_2%22%2C%20%7B%7D%5D'
-curl -X GET 'http://couchdb.admin:couchdb.admin@localhost:10010/library/_design/views/_view/authors_books_include_docs?key="author_2"&include_docs=true'

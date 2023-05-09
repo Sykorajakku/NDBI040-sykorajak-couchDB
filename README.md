@@ -1,6 +1,8 @@
 # How to setup a CouchDB cluster with docker-compose
 
 ## Setup
+0. have Docker and Python3 installed on your system, be sure you can use pip, python, docker-compose commands
+
 1. clone this repo
 
 2. adjust values in .env to your needs
@@ -9,6 +11,13 @@
 
 4. `./init-cluster.sh`
 
+5. `pip install -r requirements.txt`
+
+6. `python init.py`
+
+## Re-run steps
+
+Use `docker-compose down --volumes` to delete all existing changes you made to instances. Without running `--volumes` flag the re-run of `docker-compose up -d` will reuse the volumes with data from previous run.
 
 ## Notes
 
@@ -24,4 +33,5 @@ In consequence the hashes for the admin passwords differ between nodes and you a
 - https://docs.couchdb.org/en/master/setup/cluster.html
 - https://github.com/apache/couchdb-docker/issues/74
 - https://github.com/apache/couchdb/issues/2858
+- https://github.com/regnete/howto-couchdb-cluster-docker-compose
 

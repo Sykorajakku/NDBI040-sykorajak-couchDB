@@ -56,16 +56,6 @@ services:
       - "data-couch-2:/opt/couchdb/data"
       - "cfg-couch-2:/opt/couchdb/etc/local.d"
 
-  # python-init-script:
-  #     build:
-  #       context: .
-  #       dockerfile: Dockerfile
-  #     depends_on:
-  #       - couchdb-0
-  #       - couchdb-1
-  #       - couchdb-2
-  #     tty: true
-
 networks:
   network:
 

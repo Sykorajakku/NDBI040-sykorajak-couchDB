@@ -5,7 +5,6 @@ import requests
 COUCHDB_URL = "http://couchdb.admin:couchdb.admin@localhost:10010"
 DATABASE_NAME = "library"
 LIBRARY_ID = "library_2"
-MANGO_QUERY_FILE = "mango_lease_offers.json"
 
 def mango_query(use_index):
     query = {

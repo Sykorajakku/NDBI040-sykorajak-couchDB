@@ -198,21 +198,21 @@ for i in range(1, 10001):
     })
 
 # Save libraries to libraries.json
-with open("libraries.json", "w") as f:
+with open("json/libraries.json", "w") as f:
     json.dump(libraries, f, indent=2)
 
 # Save lease_offers to lease_offers.json
-with open("lease_offers.json", "w") as f:
+with open("json/lease_offers.json", "w") as f:
     json.dump(lease_offers, f, indent=2)
 
 # Save genres to genres.json
-with open("genres.json", "w") as f:
+with open("json/genres.json", "w") as f:
     json.dump(list(genres.values()), f, indent=2)
 
 # Save authors to authors.json
-with open("authors.json", "w") as f:
+with open("json/authors.json", "w") as f:
     json.dump(list(authors.values()), f, indent=2)
 
 # Save books to books.json
-with open("books.json", "w") as f:
+with open("json/books.json", "w") as f:
     json.dump(list(books.values()), f, indent=2)
