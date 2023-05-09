@@ -1,3 +1,4 @@
 couchdb
 requests
 python-dotenv
+sparqlwrapper
